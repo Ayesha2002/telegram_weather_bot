@@ -26,14 +26,36 @@ This is a Telegram bot built with NestJS that provides daily weather updates to 
     npm install
     ```
 3. Copy the `.env.example` file to `.env` and fill in the required environment variables:
-    ```env
-    TELEGRAM_BOT_TOKEN=your_telegram_bot_token
-    MONGO_URI=your_mongodb_uri
-    OPENWEATHER_API_KEY=your_openweather_api_key
-    GOOGLE_CLIENT_ID=your_google_client_id
-    GOOGLE_CLIENT_SECRET=your_google_client_secret
-    SESSION_SECRET=your_session_secret
-    ```
+
+    **Backend (.env)**
+env
+- `DATABASE_URL="postgresql://user:password@localhost:5432/telegram_bot"`
+
+- `PORT=3000`
+
+- `TELEGRAM_BOT_TOKEN="your_bot_token"`
+
+- `WEATHER_API_KEY="your_weather_api_key"`
+
+- `GOOGLE_CLIENT_ID="your_google_client_id"`
+
+- `GOOGLE_CLIENT_SECRET="your_google_client_secret"`
+
+- `JWT_SECRET="your_jwt_secret"`
+
+**Frontend (.env)**
+env
+- `VITE_FIREBASE_API_KEY=your_api_key`
+
+- `VITE_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com`
+
+- `VITE_FIREBASE_PROJECT_ID=your_project_id`
+
+- `VITE_FIREBASE_STORAGE_BUCKET=your_project.appspot.com`
+
+- `VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id`
+
+- `VITE_FIREBASE_APP_ID=your_app_id`
 
 ## Running the Application
 - Start the development server:
@@ -69,7 +91,7 @@ telegram-weather-bot/
 │   ├── package.json
 └── README.md
 ```
-# 🤖 Bot Commands
+#  Bot Commands
 
 - /start - Initialize the bot
 - /subscribe <city> - Subscribe to daily weather updates
@@ -83,7 +105,7 @@ telegram-weather-bot/
 - [MongoDB](https://www.mongodb.com/)
 - [Google OAuth](https://developers.google.com/identity)
 
-# 📄 License
+#  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
