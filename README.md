@@ -2,20 +2,20 @@
 
 This is a Telegram bot built with NestJS that provides daily weather updates to users. It integrates with the OpenWeatherMap API and features an admin panel secured with Google Login authentication. The bot uses PostgreSQL for data storage.
 
-[Dashboard Link:](https://telegram-weather-bot-1-7p2l.onrender.com)
+[Dashboard Link](https://telegram-weather-bot-1-7p2l.onrender.com)
 
 ## Features
 - 🌤️ Daily weather updates via Telegram.
 - 🔑 Admin panel with Google Login authentication.
 - ☁️ Integration with OpenWeatherMap API for accurate weather data.
-- 💾 MongoDB for storing user and weather data.
+- 💾 PostgreSQL for storing user and weather data.
 
 ## Prerequisites
-- [Node.js](https://nodejs.org/) and npm
-- [NestJS CLI](https://docs.nestjs.com/cli/overview)
-- [MongoDB](https://www.mongodb.com/)
-- [OpenWeatherMap API Key](https://openweathermap.org/api)
-- [Google OAuth credentials](https://console.cloud.google.com/) for admin panel login
+- Node.js and npm
+- NestJS CLI
+- PostgreSQL
+- OpenWeatherMap API Key
+- Google OAuth credentials for admin panel login
 
 ## Installation
 1. Clone the repository:
@@ -100,12 +100,6 @@ telegram-weather-bot/
 - /unsubscribe - Unsubscribe from updates
 - /weather <city> - Get current weather
 
-## Technologies Used
-- [NestJS](https://nestjs.com/)
-- [Telegram Bot API](https://core.telegram.org/bots/api)
-- [OpenWeatherMap API](https://openweathermap.org/api)
-- [MongoDB](https://www.mongodb.com/)
-- [Google OAuth](https://developers.google.com/identity)
 
 #  License
 
