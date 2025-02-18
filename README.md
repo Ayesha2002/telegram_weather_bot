@@ -2,7 +2,7 @@
 
 This is a Telegram bot built with NestJS that provides daily weather updates to users. It integrates with the OpenWeatherMap API and features an admin panel secured with Google Login authentication. The bot uses PostgreSQL for data storage.
 
-(Dashboard Link:)[https://telegram-weather-bot-1-7p2l.onrender.com]
+[Dashboard Link:](https://telegram-weather-bot-1-7p2l.onrender.com)
 
 ## Features
 - 🌤️ Daily weather updates via Telegram.
